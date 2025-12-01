@@ -35,4 +35,10 @@ b+annotate(geom = "text",
   theme_minimal()+
   theme(
     plot.title = element_text(size = 13, face = "bold", color = "blue"),
-    legend.position = "bottom")#Final Graph
+    legend.position = "bottom")
+
+## Output
+The final output is a choropleth map showing the number of bachelor's degree holders in each U.S. state, providing an immediate visual understanding of regional educational attainment.
+
+![US Bachelor's Degree Map](map_output.png)
+
